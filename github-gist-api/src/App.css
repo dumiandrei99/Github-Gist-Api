@@ -16,13 +16,14 @@ button.search-button {
 }
 
 div.error {
-  text-align: center;
+  margin-left: 42.5%;
   margin-top: 5%;
+  color: red;
 }
 
 /* gist card styling*/
 div.gist-card{
-  height: 200px;
+  height: 300px;
   margin-left: 25%;
   margin-top: 2%;
   width: 46%;
@@ -35,18 +36,21 @@ div.description-wrapper{
   text-align: center;
 }
 
-a.gist-description {
+div.gist-description {
   color: black;
   margin-top: 1%;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 
-div.tag-forks-wrapper {
+div.tag-forks-content-wrapper {
   width: 100%;
   margin-top: 5%;
   display: inline-block;
 }
 
-span.gist-forkers-language {
+span.gist-forkers-language-content {
   margin-left: 5%;
 }
 
@@ -71,4 +75,16 @@ span.gist-forker {
   padding-bottom: 2px;
   border-radius: 5px;
   color: black;
+}
+
+span.gist-content{
+  background-color: grey;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 4%;
 }
