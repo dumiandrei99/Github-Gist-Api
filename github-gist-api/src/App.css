@@ -1,1 +1,15 @@
+input.search-bar { 
+  width: 40%;
+  height: 25px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border-radius: 5px;
+}
 
+button.search-button {
+  background-color: black;
+  color: white;
+  margin-left: 2%;
+  height: 25px;
+  border-radius: 5px;
+}
